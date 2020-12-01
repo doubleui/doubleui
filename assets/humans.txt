@@ -1,0 +1,7 @@
+/* TEAM */
+	Developer: Dmitriy Nazarov
+	Site:      https://doubleui.com
+
+/* THANKS */
+	Robot:     Ehlo
+	Contact:   ehlo@doubleui.com
