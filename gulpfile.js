@@ -51,6 +51,7 @@ exports.default = function() {
       'assets/favicon.png',
       'assets/humans.txt',
       'assets/robots.txt',
+      'assets/CNAME',
       '.nojekyll',
     ])
     .pipe(dest(path.dist))
