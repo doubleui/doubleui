@@ -51,6 +51,7 @@ exports.default = function() {
       'assets/favicon.png',
       'assets/humans.txt',
       'assets/robots.txt',
+      '.nojekyll',
     ])
     .pipe(dest(path.dist))
     .pipe(src([
