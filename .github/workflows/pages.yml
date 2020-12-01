@@ -10,14 +10,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 15
+    - run: npm ci
+    - run: gulp
 
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-
-    - name: Check markdown
-      run: markdown README.md
+    - name: Check gulp workflow
+    - run: ls -la
