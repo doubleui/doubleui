@@ -1,0 +1,32 @@
+{
+  "name": "doubleui",
+  "version": "1.0.0",
+  "author": "Dmitriy Nazarov",
+  "description": "My name is Dmitriy. I am a team lead and software engineer from Almaty, Kazakhstan.",
+  "keywords": [
+    "team lead",
+    "software engineer",
+    "web developer"
+  ],
+  "homepage": "https://doubleui.com",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doubleui/doubleui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doubleui/doubleui/issues"
+  },
+  "devDependencies": {
+    "clean-css": "^4.2.3",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-replace": "^1.0.0",
+    "marked": "^1.2.5",
+    "stylus": "^0.54.8"
+  }
+}
