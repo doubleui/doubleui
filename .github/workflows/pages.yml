@@ -19,5 +19,11 @@ jobs:
         npm ci
         gulp
 
-    - name: Check gulp workflow
-      run: ls -la
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        REPOSITORY_NAME: doubleui/doubleui.github.io 
+        BRANCH: master
+        FOLDER: dist
+        CLEAN: true
